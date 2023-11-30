@@ -1,0 +1,201 @@
+body {
+    overflow-x: hidden;
+}
+.Navbar {
+    gap: 45px;
+    width: 1173px;
+    height: 84px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Logo {
+    flex: 1 1 0; 
+    height: 58px; 
+    padding: 10px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex;
+}
+.Resume {
+    text-align: center; 
+    color: #14279B; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 5.12px; 
+    word-wrap: break-word
+}
+.NavMenu {
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 45px; 
+    display: flex
+}
+.Menu {
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 45px; 
+    display: flex
+}
+.About  {
+    background-color: #fff;
+    border: none;
+    width: 100px; 
+    height: 38px; 
+    text-align: center; 
+    color: #212121; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 1.38px; 
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.Skills  {
+    background-color: #fff;
+    border: none;
+    width: 100px; 
+    height: 38px; 
+    text-align: center; 
+    color: #212121; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 1.38px; 
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.Portfolio {
+    text-decoration: underline;
+    text-decoration-color: #082032;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    position: relative;
+    background-color: #fff;
+    border: none;
+    width: 150px; 
+    height: 38px; 
+    text-align: center; 
+    color: #212121; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    letter-spacing: 1.38px; 
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.ContactMe1 {
+    margin-top: -5px;
+    position: relative;
+    padding-left: 18px; 
+    padding-right: 18px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background: #608AF5; 
+    border-radius: 10px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: flex;
+    cursor: pointer;
+}
+.ContactMe2 {
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    letter-spacing: 1.38px; 
+    word-wrap: break-word;
+}
+.Ellips1 {
+    width: 291px; 
+    height: 281px; 
+    margin-left: 4%; 
+    margin-top: 0%; 
+    position: absolute;
+}
+.Ellips2 {
+    width: 295px; 
+    height: 297px; 
+    left: 310px; 
+    top: 411px; 
+    position: absolute;
+}
+.Ellips3 {
+    width: 442px; 
+    height: 433px; 
+    left: 1097px; 
+    top: 126px; 
+    position: absolute;
+}
+.letsPlay {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 60px;
+    word-wrap: break-word;
+    margin-left: 30%;
+    margin-top: 7% ;
+    color:  #14279b;
+}
+.game {
+    margin: auto;
+    margin-top: 0%;
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid #14279b;
+}
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(dino.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+    left: 20px ;
+}
+#cactus {
+    width: 40px;
+    height: 60px;
+    background-image: url(cactus.png);
+    background-size: 40px 60px;
+    position: relative;
+    top: 95px;
+    left: 575px;
+    animation: cactusMove 1s infinite linear;
+}
+@keyframes cactusMove {
+    0% {
+        left: 575px;
+    }
+    100% {
+        left:-20px
+    }
+}
+.jump {
+    animation: jump 0.5s  linear;
+}
+@keyframes jump {
+    0% {
+        top: 50px;
+    }
+    30% {
+        top: 30px;
+    }
+    50%{
+        top: 20px;
+    }
+    60% {
+        top:30px;
+    }
+    80% {
+        top: 50px;
+    }
+    100% {
+        top: 150px;
+    }
+}
